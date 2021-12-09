@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Mukta");
+
+:root {
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Mukta";
+  overflow: hidden;
+  background: #c19a6b;
+}
+
+.main {
+  background: #c19a6b;
+  height: 100%;
+  width: 100%;
+}
+
+.main .header {
+  text-align: center;
+  width: 100%;
+}
+
+.main .header .cell1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main .header h1 {
+  color: white;
+  text-align: left;
+  border-bottom: 2px solid white;
+}
+
+.main .navigation h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-weight: 800;
+}
+
+.main .navigation p {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.main .navigation p span {
+  color: green;
+}
+
+.main .canvas-parent {
+  cursor: pointer;
+  width: 100%;
+  height: 300px;
+  background: #202020;
+}
+
+#canvas {
+  width: 100%;
+  height: 300px;
+  background: #202020;
+}
+
+.main .score {
+  background: #c19a6b;
+  width: 100%;
+  height: auto;
+}
+
+.main .score .section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main .score .section-2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 5px solid rgb(85, 185, 85);
+}
+
+.main .score .section-2 p {
+  padding: 0px 50px 0px 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.main .score #start {
+  font-size: 24px;
+  margin: 20px auto;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  border: 2px solid white;
+  color: white;
+  font-weight: 800;
+  background-color: rgb(85, 185, 85);
+}
+
+.button-1 {
+  background-color: #202020;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: grey;
+}

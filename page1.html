@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reaction test</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/src/css/page1.css" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="header">
+
+            <div class="cell1">
+                <h1>Reaction Time Game</h1>
+            </div>
+            <span id="next"><button onclick="document.location='page2.html'" class="button-1" role="button">Next
+                    Test</button></span>
+
+        </div>
+
+        <div class="navigation">
+            <h2>Check your reaction time!</h2>
+
+            <p class="information">
+                Click the area after the color changes to <span>GREEN</span>
+            </p>
+
+        </div>
+
+        <div class="canvas-parent">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div class="score">
+            <div class="section-1">
+                <button id="start" type="button">Start Test</button>
+            </div>
+            <div class="section-2">
+                <p>Your time:</p>
+                <p id="time-text">NO TIME</p>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+<script src="src/javasript/page1.js"></script>
+
+</html>

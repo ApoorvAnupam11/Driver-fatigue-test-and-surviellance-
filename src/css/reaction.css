@@ -1,0 +1,25 @@
+:root {}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Mukta";
+	overflow: hidden;
+	background: #222;
+}
+
+.main{
+	background: #222;
+	height: 100%;
+	width: 100%;
+}
+
+.main .header h1 {
+	color: white;
+	text-align: center;
+	border-bottom: 2px solid white;
+}
+
+.main .navigation{
+	background: #222;
+}
